@@ -1,0 +1,36 @@
+# ===== Vivado 日志与工程缓存 =====
+.Xil/
+*.jou
+*.log
+*.backup.jou
+*.backup.log
+webtalk*
+
+# ===== 综合/仿真运行与构建产物 =====
+runs/
+builds/
+build_logs/
+output/
+
+# ===== Vivado/仿真生成文件（全局保险） =====
+*.bit
+*.dcp
+*.rpt
+*.str
+*.wdb
+*.pb
+*.sdb
+
+# ===== 构建脚本生成的交付/验证状态（可重新生成） =====
+DELIVERY_STATUS.json
+verification_*.json
+
+# ===== Python 缓存 =====
+__pycache__/
+*.pyc
+
+# ===== 编辑器/系统文件 =====
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

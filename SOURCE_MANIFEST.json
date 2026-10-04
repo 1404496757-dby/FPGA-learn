@@ -1,0 +1,59 @@
+{
+  "vendor_unmodified": true,
+  "new_code": "rtl/sim/host/scripts; generated collaboratively on 2026-10-03",
+  "sources": [
+    {
+      "folder": "uart",
+      "repository": "https://github.com/WangXuan95/FPGA-UART.git",
+      "commit": "8feacde6d15cd01049cf08cc3bd0201382a39e6c",
+      "files": [
+        {
+          "path": "vendor\\uart\\LICENSE",
+          "sha256": "81cbae84a29ce7e770bf2bc7b178e50bda0ce8de6067aba661b0bc7b05b562f8"
+        },
+        {
+          "path": "vendor\\uart\\uart_rx.v",
+          "sha256": "d159d943b4820e06b74f462f4920658eb16f8594d499269cc131c89f63572a0e"
+        },
+        {
+          "path": "vendor\\uart\\uart_tx.v",
+          "sha256": "e48dd27cbfb64bb21593cdd3f7a0450bbef56d56de3f6f8d8878187e116526ed"
+        }
+      ]
+    },
+    {
+      "folder": "spi",
+      "repository": "https://github.com/nandland/spi-master.git",
+      "commit": "1ab581969f8ea2f794072a144b55cd74e5a54f34",
+      "files": [
+        {
+          "path": "vendor\\spi\\LICENSE",
+          "sha256": "9981c9fc3ba659a3d3679e5cf0f7df75d1f6484d915804f7cbaaa71bdc77152c"
+        },
+        {
+          "path": "vendor\\spi\\SPI_Master.v",
+          "sha256": "71dfd310f93975d00be6bfb308e32bee24e75987ab04f3dbdf0d09b09ec263ae"
+        }
+      ]
+    },
+    {
+      "folder": "jls",
+      "repository": "https://github.com/WangXuan95/FPGA-JPEG-LS-encoder.git",
+      "commit": "6bce7c5c21bd7c17bc2a0796171c1ac28a09d959",
+      "files": [
+        {
+          "path": "vendor\\jls\\jls_encoder.v",
+          "sha256": "8f4d9ea1b74759229fb297cd475fb14e1ddbf5995a9807a3d66d37bed67daa5b"
+        },
+        {
+          "path": "vendor\\jls\\LICENSE",
+          "sha256": "81cbae84a29ce7e770bf2bc7b178e50bda0ce8de6067aba661b0bc7b05b562f8"
+        }
+      ]
+    }
+  ],
+  "references": [
+    "alexforencich/verilog-axis",
+    "WangXuan95/ImCvt"
+  ]
+}
